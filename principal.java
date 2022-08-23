@@ -16,6 +16,12 @@ public class principal {
 		for(int i=1; i<=vida; i++)
 			rp +=i;
 		System.out.println("La suma es: "+rp);
+
+		System.out.println("MULTIPLICACIÓN: "+vida);
+		for(int i=1; i<=12; i++)
+		{		
+			System.out.println(i+" * "+vida+" = "+ i*vida);
+		}
 	}
 
 }
