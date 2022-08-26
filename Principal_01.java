@@ -17,8 +17,15 @@ public class Principal_01 {
 			if (rp == 1234)
 				fl = true;
 		} while(vida < 3 && !fl);
-		if (fl == true)
+		if (fl == true) {
 			System.out.println("Adivinaste!!!!! :)");
+			if (vida == 1)
+				System.out.println("Ganaste $100");
+			if (vida == 2)
+				System.out.println("Ganaste $50");
+			if (vida == 3)
+				System.out.println("Ganaste $20");
+		}
 		else
 			System.out.println("Uppps, perdiste... :c ");
 		}
